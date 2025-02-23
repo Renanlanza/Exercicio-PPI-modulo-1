@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotes de Viagem</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Estilo Personalizado -->
+    <style>
+        .card-pacote {
+            transition: transform 0.3s;
+        }
+        .card-pacote:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Agência de Viagens</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pacotes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Pacotes de Viagem Disponíveis</h1>
+        
+        <div class="row">
+            <!-- Pacote 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-pacote">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Pacote Europa">
+                    <div class="card-body">
+                        <h5 class="card-title">Pacote Europa Clássica</h5>
+                        <p class="card-text">
+                            <strong>Destino:</strong> Europa<br>
+                            <strong>Data de Partida:</strong> 15/07/2024<br>
+                            <strong>Preço:</strong> R$ 5.999,99
+                        </p>
+                        <a href="detalhes.html" class="btn btn-primary w-100">
+                            Ver Detalhes do Pacote
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pacote 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-pacote">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Pacote Caribe">
+                    <div class="card-body">
+                        <h5 class="card-title">Pacote Caribe Tropical</h5>
+                        <p class="card-text">
+                            <strong>Destino:</strong> Caribe<br>
+                            <strong>Data de Partida:</strong> 20/08/2024<br>
+                            <strong>Preço:</strong> R$ 4.499,99
+                        </p>
+                        <a href="detalhes.html" class="btn btn-primary w-100">
+                            Ver Detalhes do Pacote
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pacote 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card card-pacote">
+                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Pacote Ásia">
+                    <div class="card-body">
+                        <h5 class="card-title">Pacote Ásia Mística</h5>
+                        <p class="card-text">
+                            <strong>Destino:</strong> Ásia<br>
+                            <strong>Data de Partida:</strong> 10/09/2024<br>
+                            <strong>Preço:</strong> R$ 6.999,99
+                        </p>
+                        <a href="detalhes.html" class="btn btn-primary w-100">
+                            Ver Detalhes do Pacote
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-light text-center py-3 mt-4">
+        <p>&copy; 2024 Agência de Viagens. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS e Dependências -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

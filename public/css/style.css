@@ -1,0 +1,71 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #007bff !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+/* Cards de Pacotes */
+.card-pacote {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card-pacote:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.card-pacote img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card-pacote .btn {
+    background-color: #28a745;
+    border-color: #28a745;
+    transition: all 0.3s ease;
+}
+
+.card-pacote .btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+/* Títulos */
+h1, h5 {
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    background-color: #e9ecef !important;
+    color: #6c757d;
+}
+
+/* Responsividade Adicional */
+@media (max-width: 768px) {
+    .card-pacote {
+        margin-bottom: 20px;
+    }
+}
+
+/* Efeitos de Hover Sutis */
+.nav-link {
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}

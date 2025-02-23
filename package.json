@@ -1,0 +1,24 @@
+{
+  "name": "exercicio-ppi-modulo-1",
+  "version": "1.0.0",
+  "description": "Primeiro projeto node da disciplina de Programação para Internet do curso Análise e Desenvolvimento de Sistemas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Renanlanza/Exercicio-PPI-modulo-1.git"
+  },
+  "author": "Renan Giovani Lanza Aranha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Renanlanza/Exercicio-PPI-modulo-1/issues"
+  },
+  "homepage": "https://github.com/Renanlanza/Exercicio-PPI-modulo-1#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
