@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Renanlanza/Exercicio-PPI-modulo-1#readme",
   "dependencies": {
     "express": "^4.21.2",
-    "express-session": "^1.18.1"
+    "express-session": "^1.18.1",
+    "express-static": "^1.2.6"
   }
 }
