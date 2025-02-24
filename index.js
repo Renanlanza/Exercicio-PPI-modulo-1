@@ -24,12 +24,12 @@ app.post("/login",(requisicao, resposta) => {
     const usuario = requisicao.body.usuario;
     const senha = requisicao.body.senha;
     if (usuario === "admin" && senha === "admin") {
-        requisicao.session.autenticado = true;
-        resposta.redirect('/detalhes.html');
+    requisicao.session.autenticado = true;
+    resposta.redirect('/detalhes-1.html');
     } else {
-        resposta.redirect('/login.html');
+    resposta.redirect('/login.html');
     }
-});
+    });
 
 app.get("/logout", (requisicao, resposta) => {
     requisicao.session.destroy();
